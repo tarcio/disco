@@ -15,6 +15,8 @@ Para comodidade, todos os serviços estão compartilhando o mesmo banco de dados
 Foi desenvolvido uma camada de segurança para consumir os microserviços. As credenciais de acesso também estão configurados no arquivo application.properties de cada módulo, bem como a url de acesso ao disco-service-registry.  
 ## Endpoints  
 Os endpoints estão disponíveis em: CashbackEnpoint.java, CatalogEndpoint.java, SaleEndpoint.java.  
+Para carregar os valores de cashback, consumir o serviço /load de CashbackEndpoint.java.  
+Para carregar o catálogo de discos utiliando a api do Spotify, consumir o serviçi /load de CatalogEndpoint.java.
 ## TODO  
 Swagger.  
 Docker.  
