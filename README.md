@@ -16,7 +16,7 @@ Foi desenvolvido uma camada de segurança para consumir os microserviços. As cr
 ## Endpoints  
 Os endpoints estão disponíveis em: CashbackEnpoint.java, CatalogEndpoint.java, SaleEndpoint.java.  
 Para carregar os valores de cashback, consumir o serviço /load de CashbackEndpoint.java.  
-Para carregar o catálogo de discos utiliando a api do Spotify, consumir o serviçi /load de CatalogEndpoint.java.
+Para carregar o catálogo de discos utilizando a api do Spotify, consumir o serviço /load de CatalogEndpoint.java.  
 ## TODO  
 Swagger.  
 Docker.  
